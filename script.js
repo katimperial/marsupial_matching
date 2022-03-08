@@ -65,39 +65,42 @@ console.log(tasmanianDevilBacks)
 for (let i = 0; i < tasmanianDevilBacks.length; i++) {
     tasmanianDevilBacks[i].addEventListener("click", function() {
       console.log('tasmanian devil card clicked')
-      tasmanianDevilBacks[i].src='https://i.imgur.com/oveazLK.jpg';
+      tasmanianDevilBacks[i].src='https://i.imgur.com/OatfoBd.png';
     });
 }
 
 // bandicoot
 
-const bandicootBack = document.querySelectorAll('.bandicoot')
-console.log(bandicootBack)
+const bandicootBacks = document.querySelectorAll('.bandicoot')
+console.log(bandicootBacks)
 
-for (let i = 0; i < bandicootBack.length; i++) {
-    bandicootBack[i].addEventListener("click", function() {
+for (let i = 0; i < bandicootBacks.length; i++) {
+    bandicootBacks[i].addEventListener("click", function() {
       console.log('bandicoot card clicked')
+      bandicootBacks[i].src='https://i.imgur.com/izksnTh.png';
     });
 }
 
 // wallaby
 
-const wallabyBack = document.querySelectorAll('.wallaby')
-console.log(wallabyBack)
+const wallabyBacks = document.querySelectorAll('.wallaby')
+console.log(wallabyBacks)
 
-for (let i = 0; i < wallabyBack.length; i++) {
-    wallabyBack[i].addEventListener("click", function() {
+for (let i = 0; i < wallabyBacks.length; i++) {
+    wallabyBacks[i].addEventListener("click", function() {
       console.log('wallaby card clicked')
+      wallabyBacks[i].src='https://i.imgur.com/NR5Swjr.png';
     });
 }
 
 // possum
 
-const possumBack = document.querySelectorAll('.possum')
-console.log(possumBack)
+const possumBacks = document.querySelectorAll('.possum')
+console.log(possumBacks)
 
-for (let i = 0; i < possumBack.length; i++) {
-    possumBack[i].addEventListener("click", function() {
+for (let i = 0; i < possumBacks.length; i++) {
+    possumBacks[i].addEventListener("click", function() {
       console.log('possum card clicked')
+      possumBacks[i].src='https://i.imgur.com/BaBa7Ds.png';
     });
 }

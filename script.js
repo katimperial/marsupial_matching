@@ -1,12 +1,3 @@
-// const cardBack = document.querySelectorAll('.cardBack')
-// console.log(cardBack)
-
-// for (let i = 0; i < cardBack.length; i++) {
-//     cardBack[i].addEventListener("click", function() {
-//       console.log('card clicked')
-//     });
-// }
-
 // kangaroo
 
 const kangarooBacks = document.querySelectorAll('.kangaroo')
@@ -19,6 +10,34 @@ for (let i = 0; i < kangarooBacks.length; i++) {
         kangarooBacks[i].src='https://i.imgur.com/PewKgN9.jpg';
     });
 }
+const cards = document.querySelectorAll('img')
+let hasFlippedCard = false;
+let firstCard, secondCard;
+
+function flipCard() {
+    this.classList.add('flip');
+
+    if (!hasFlippedCard) {
+        hasFlippedCard = true;
+        firstCard = this;
+
+        console.log({hasFlippedCard, firstCard})
+    } else { hasFlippedCard = false;
+        secondCard = this;
+        
+        console.log({firstCard, secondCard})
+
+        if (firstCard.class === secondCard.class) {
+            firstCard.removeEventListener('click', flipCard);
+            secondCard.removeEventListener('click', flipCard)
+        } else {
+            firstCard.classList.remove('flip');
+            secondCard.classList.remove('flip');
+        }
+    }
+}
+
+cards.forEach(card => card.addEventListener('click', flipCard))
 
 
 // koala

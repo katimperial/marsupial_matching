@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+
+section {
+    width: 850px;
+    height: auto;
+}
+
+img {
+    max-width: 190px;
+    height: auto;
+    /* display: inline-grid; */
+    display: inline-flex;
+
+}   

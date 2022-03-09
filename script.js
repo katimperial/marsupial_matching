@@ -12,10 +12,19 @@ for (let i = 0; i < kangarooBacks.length; i++) {
 }
 const cards = document.querySelectorAll('img')
 let hasFlippedCard = false;
-let firstCard, secondCard;
+let firstCard = null;
+let secondCard = null;
 
 function flipCard() {
-    this.classList.add('flip');
+    // if(firstCard !== null){
+    //     firstCard=e.target
+    //     console.log(e.target)
+    // } else {
+    //     secondCard=e.target
+    // }
+    
+
+    // this.classList.add('flip');
 
     if (!hasFlippedCard) {
         hasFlippedCard = true;
@@ -28,15 +37,14 @@ function flipCard() {
         console.log({firstCard, secondCard})
 
         if (firstCard.class === secondCard.class) {
-            firstCard.removeEventListener('click', flipCard);
-            secondCard.removeEventListener('click', flipCard)
+            null
         } else {
-            firstCard.classList.remove('flip');
-            secondCard.classList.remove('flip');
+            firstCard.src='https://i.imgur.com/6pzFVJD.jpeg';
+            secondCard.src='https://i.imgur.com/6pzFVJD.jpeg'
         }
     }
 }
-
+// addEventListener('click', (e) => flipCard(e))
 cards.forEach(card => card.addEventListener('click', flipCard))
 
 

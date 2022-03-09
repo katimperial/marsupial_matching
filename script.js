@@ -7,45 +7,38 @@ console.log(kangarooBacks)
 for (let i = 0; i < kangarooBacks.length; i++) {
     kangarooBacks[i].addEventListener("click", () => {
         console.log('kangaroo card clicked')
-        kangarooBacks[i].src='https://i.imgur.com/PewKgN9.jpg';
+        kangarooBacks[i].src='https://i.imgur.com/YKhT7kY.jpg';
     });
 }
-const cards = document.querySelectorAll('img')
-let hasFlippedCard = false;
-let firstCard = null;
-let secondCard = null;
+// const cards = document.querySelectorAll('img')
+// let hasFlippedCard = false;
+// let firstCard = null;
+// let secondCard = null;
 
-function flipCard() {
-    // if(firstCard !== null){
-    //     firstCard=e.target
-    //     console.log(e.target)
-    // } else {
-    //     secondCard=e.target
-    // }
+// function flipCard() {
     
+//     // this.classList.add('flip');
 
-    // this.classList.add('flip');
+//     if (!hasFlippedCard) {
+//         hasFlippedCard = true;
+//         firstCard = this;
 
-    if (!hasFlippedCard) {
-        hasFlippedCard = true;
-        firstCard = this;
-
-        console.log({hasFlippedCard, firstCard})
-    } else { hasFlippedCard = false;
-        secondCard = this;
+//         console.log(hasFlippedCard, firstCard)
+//     } else { hasFlippedCard = false;
+//         secondCard = this;
         
-        console.log({firstCard, secondCard})
+//         console.log(firstCard.className, secondCard.className)
 
-        if (firstCard.class === secondCard.class) {
-            null
-        } else {
-            firstCard.src='https://i.imgur.com/6pzFVJD.jpeg';
-            secondCard.src='https://i.imgur.com/6pzFVJD.jpeg'
-        }
-    }
-}
-// addEventListener('click', (e) => flipCard(e))
-cards.forEach(card => card.addEventListener('click', flipCard))
+//         if (firstCard.className === secondCard.className) {
+//             return
+//         } else {
+//             console.log('in else statement')
+//             firstCard.src='https://i.imgur.com/6pzFVJD.jpeg';
+//             secondCard.src='https://i.imgur.com/6pzFVJD.jpeg'
+//         }
+//     }
+// }
+// cards.forEach(card => card.addEventListener('click', flipCard))
 
 
 // koala
@@ -56,7 +49,7 @@ console.log(koalaBacks)
 for (let i = 0; i < koalaBacks.length; i++) {
     koalaBacks[i].addEventListener("click", function() {
       console.log('koala card clicked')
-      koalaBacks[i].src='https://i.imgur.com/CFd0xRN.png';
+      koalaBacks[i].src='https://i.imgur.com/GWRQaZY.jpg';
     });
 }
 
@@ -68,7 +61,7 @@ console.log(wombatBacks)
 for (let i = 0; i < wombatBacks.length; i++) {
     wombatBacks[i].addEventListener("click", function() {
       console.log('wombat card clicked')
-      wombatBacks[i].src='https://i.imgur.com/pXoWgxT.jpg';
+      wombatBacks[i].src='https://i.imgur.com/ix0fCQe.jpg';
     });
 }
 
@@ -80,7 +73,7 @@ console.log(opossumBacks)
 for (let i = 0; i < opossumBacks.length; i++) {
     opossumBacks[i].addEventListener("click", function() {
       console.log('opossum card clicked')
-      opossumBacks[i].src='https://i.imgur.com/oveazLK.jpg';
+      opossumBacks[i].src='https://i.imgur.com/6MKMK8X.jpg';
     });
 }
 
@@ -131,3 +124,31 @@ for (let i = 0; i < possumBacks.length; i++) {
       possumBacks[i].src='https://i.imgur.com/BaBa7Ds.png';
     });
 }
+const cards = document.querySelectorAll('img')
+let hasFlippedCard = false;
+let firstCard = null;
+let secondCard = null;
+function flipCard() {
+    
+    // this.classList.add('flip');
+
+    if (!hasFlippedCard) {
+        hasFlippedCard = true;
+        firstCard = this;
+
+        console.log(hasFlippedCard, firstCard)
+    } else { hasFlippedCard = false;
+        secondCard = this;
+        
+        console.log(firstCard.className, secondCard.className)
+
+        if (firstCard.className === secondCard.className) {
+            return
+        } else {
+            console.log('in else statement')
+            firstCard.src='https://i.imgur.com/6pzFVJD.jpeg';
+            secondCard.src='https://i.imgur.com/6pzFVJD.jpeg'
+        }
+    }
+}
+cards.forEach(card => card.addEventListener('click', flipCard))

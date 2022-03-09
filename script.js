@@ -85,7 +85,7 @@ console.log(tasmanianDevilBacks)
 for (let i = 0; i < tasmanianDevilBacks.length; i++) {
     tasmanianDevilBacks[i].addEventListener("click", function() {
       console.log('tasmanian devil card clicked')
-      tasmanianDevilBacks[i].src='https://i.imgur.com/OatfoBd.png';
+      tasmanianDevilBacks[i].src='https://i.imgur.com/eh1Mqaa.jpg';
     });
 }
 

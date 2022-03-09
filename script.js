@@ -152,3 +152,8 @@ function flipCard() {
     }
 }
 cards.forEach(card => card.addEventListener('click', flipCard))
+
+let randomCards = document.querySelector('section');
+for (let i = randomCards.children.length; i >= 0; i--) {
+    randomCards.appendChild(randomCards.children[Math.random() * i | 0]);
+}

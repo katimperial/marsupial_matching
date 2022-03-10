@@ -4,6 +4,7 @@ header {
 
 .clickables {
     grid-area: clickables;
+    justify-items: center;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
     grid-template-columns: 200px 200px 200px 200x;
     grid-template-rows: auto;
     grid-template-areas: 
-    "header header clickables clickables"
+    "header clickables clickables clickables"
     "section section . button"
     "footer footer footer footer";
 }

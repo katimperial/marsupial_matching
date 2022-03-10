@@ -18,12 +18,12 @@ body {
 }
 
 .cards {
-    width: 850px;
+    width: 920px;
     height: auto;
 }
 
 img {
-    max-width: 150px;
+    max-width: 170px;
     height: auto;
     /* display: inline-grid; */
     display: inline-flex;

@@ -1,5 +1,16 @@
+header {
+    grid-area: header;
+}
+
 body {
     background-color: aqua;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200x;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header"
+    "section section . button"
+    "footer footer footer footer";
 }
 
 section {
@@ -12,5 +23,12 @@ img {
     height: auto;
     /* display: inline-grid; */
     display: inline-flex;
-
+    border-radius: 25px;
+    margin: 5px;
 }   
+
+button {
+    height: 35px;
+    width: auto;
+    align-self: center
+}

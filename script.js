@@ -97,7 +97,7 @@ console.log(bandicootBacks)
 for (let i = 0; i < bandicootBacks.length; i++) {
     bandicootBacks[i].addEventListener("click", function() {
       console.log('bandicoot card clicked')
-      bandicootBacks[i].src='https://i.imgur.com/izksnTh.png';
+      bandicootBacks[i].src='https://i.imgur.com/ylwAONq.jpg';
     });
 }
 
@@ -109,7 +109,7 @@ console.log(wallabyBacks)
 for (let i = 0; i < wallabyBacks.length; i++) {
     wallabyBacks[i].addEventListener("click", function() {
       console.log('wallaby card clicked')
-      wallabyBacks[i].src='https://i.imgur.com/NR5Swjr.png';
+      wallabyBacks[i].src='https://i.imgur.com/LQRf3iM.jpg';
     });
 }
 
@@ -121,9 +121,12 @@ console.log(possumBacks)
 for (let i = 0; i < possumBacks.length; i++) {
     possumBacks[i].addEventListener("click", function() {
       console.log('possum card clicked')
-      possumBacks[i].src='https://i.imgur.com/BaBa7Ds.png';
+      possumBacks[i].src='https://i.imgur.com/VgBrNpw.jpg';
     });
 }
+
+// flip card function modified from https://www.youtube.com/watch?v=ZniVgo8U7ek
+
 const cards = document.querySelectorAll('img')
 let hasFlippedCard = false;
 let firstCard = null;
@@ -152,6 +155,8 @@ function flipCard() {
     }
 }
 cards.forEach(card => card.addEventListener('click', flipCard))
+
+// randomize function found on https://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order
 
 let randomCards = document.querySelector('section');
 for (let i = randomCards.children.length; i >= 0; i--) {

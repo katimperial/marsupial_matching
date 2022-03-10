@@ -125,6 +125,30 @@ for (let i = 0; i < possumBacks.length; i++) {
     });
 }
 
+// sugar glider
+
+const sugarGliderBacks = document.querySelectorAll('.sugarGlider')
+console.log(sugarGliderBacks)
+
+for (let i = 0; i < sugarGliderBacks.length; i++) {
+    sugarGliderBacks[i].addEventListener("click", function() {
+      console.log('sugar glider card clicked')
+      sugarGliderBacks[i].src='https://i.imgur.com/XqvuV2z.png';
+    });
+}
+
+// cuscus
+
+const cuscusBacks = document.querySelectorAll('.cuscus')
+console.log(cuscusBacks)
+
+for (let i = 0; i < cuscusBacks.length; i++) {
+    cuscusBacks[i].addEventListener("click", function() {
+      console.log('cuscus card clicked')
+      cuscusBacks[i].src='https://i.imgur.com/GgXaIZH.png';
+    });
+}
+
 // flip card function modified from https://www.youtube.com/watch?v=ZniVgo8U7ek
 
 const cards = document.querySelectorAll('img')

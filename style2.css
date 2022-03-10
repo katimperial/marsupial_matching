@@ -9,11 +9,11 @@ header {
 body {
     background-color: aqua;
     display: grid;
-    grid-template-columns: 200px 200px 200px 200x;
+    grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: auto;
     grid-template-areas: 
     "header header clickables clickables"
-    "section section . button"
+    "section section section section"
     "footer footer footer footer";
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 img {
-    max-width: 190px;
+    max-width: 150px;
     height: auto;
     /* display: inline-grid; */
     display: inline-flex;
@@ -36,3 +36,4 @@ button {
     width: auto;
     /* align-self: center */
 }
+

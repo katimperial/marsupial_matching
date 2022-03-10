@@ -173,8 +173,10 @@ function flipCard() {
             return
         } else {
             console.log('in else statement')
+            setTimeout(() => {
             firstCard.src='https://i.imgur.com/6pzFVJD.jpeg';
             secondCard.src='https://i.imgur.com/6pzFVJD.jpeg'
+        }, 700);
         }
     }
 }

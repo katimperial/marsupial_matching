@@ -15,12 +15,16 @@ header {
     height: 75px;
     width: auto;
     margin: 10px;
+    margin-left: 45px;
+    padding-bottom: 42px;
+
 }
 
 .playAgain {
     height: 75px;
     width: auto;
-    margin: 50px;
+    margin: 10px;
+    padding-bottom: 42px;
 }
 
 body {
@@ -37,6 +41,7 @@ body {
 #header {
     height: 200px;
     width: auto;
+    margin-left: 25px;
 }
 
 .cards {

@@ -1,30 +1,37 @@
 header {
     grid-area: header;
+    display: inline-flex; 
+    justify-content: space-around; 
 }
 
 .clickables {
     grid-area: clickables;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .changeLevel {
     height: 75px;
     width: auto;
+    margin: 10px;
 }
 
 .playAgain {
     height: 75px;
     width: auto;
+    margin: 50px;
 }
 
 body {
     background-color: #ffffcc;
-    display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    /* display: grid; */
+    /* grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: auto;
     grid-template-areas: 
     "header header clickables clickables"
     "section section section section"
-    "footer footer footer footer";
+    "footer footer footer footer"; */
 }
 
 #header {

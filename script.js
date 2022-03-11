@@ -174,8 +174,8 @@ function flipCard() {
         } else {
             console.log('in else statement')
             setTimeout(() => {
-            firstCard.src='https://i.imgur.com/6pzFVJD.jpeg';
-            secondCard.src='https://i.imgur.com/6pzFVJD.jpeg'
+            firstCard.src='https://i.imgur.com/B5D6gmY.jpg';
+            secondCard.src='https://i.imgur.com/B5D6gmY.jpg'
         }, 700);
         }
     }

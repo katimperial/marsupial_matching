@@ -1,5 +1,6 @@
 header {
     grid-area: header;
+    display: inline-flex;
 }
 
 .clickables {
@@ -7,15 +8,30 @@ header {
     justify-items: center;
 }
 
+.changeLevel {
+    height: 75px;
+    width: auto;
+}
+
+.playAgain {
+    height: 75px;
+    width: auto;
+}
+
 body {
-    background-color: aqua;
+    background-color: #ffffcc;
     display: grid;
     grid-template-columns: 200px 200px 200px 200x;
     grid-template-rows: auto;
     grid-template-areas: 
-    "header clickables clickables clickables"
+    "header header header header"
     "section section . button"
     "footer footer footer footer";
+}
+
+#header {
+    height: 200px;
+    width: auto;
 }
 
 .cards {
@@ -23,7 +39,7 @@ body {
     height: auto;
 }
 
-img {
+#card {
     max-width: 190px;
     height: auto;
     /* display: inline-grid; */
@@ -37,3 +53,4 @@ button {
     width: auto;
     /* align-self: center */
 }
+

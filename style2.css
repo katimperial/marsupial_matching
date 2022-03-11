@@ -6,8 +6,18 @@ header {
     grid-area: clickables;
 }
 
+.changeLevel {
+    height: 75px;
+    width: auto;
+}
+
+.playAgain {
+    height: 75px;
+    width: auto;
+}
+
 body {
-    background-color: aqua;
+    background-color: #ffffcc;
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: auto;
@@ -17,12 +27,17 @@ body {
     "footer footer footer footer";
 }
 
+#header {
+    height: 200px;
+    width: auto;
+}
+
 .cards {
     width: 920px;
     height: auto;
 }
 
-img {
+#card {
     max-width: 170px;
     height: auto;
     /* display: inline-grid; */
@@ -36,4 +51,3 @@ button {
     width: auto;
     /* align-self: center */
 }
-

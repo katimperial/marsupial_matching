@@ -133,7 +133,7 @@ console.log(sugarGliderBacks)
 for (let i = 0; i < sugarGliderBacks.length; i++) {
     sugarGliderBacks[i].addEventListener("click", function() {
       console.log('sugar glider card clicked')
-      sugarGliderBacks[i].src='https://i.imgur.com/XqvuV2z.png';
+      sugarGliderBacks[i].src='https://i.imgur.com/z5Hw8cC.jpg';
     });
 }
 

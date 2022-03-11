@@ -36,3 +36,4 @@ I would like to:
 
 ## Sources
 * [**Memory Card Game - JavaScript Tutorial**](https://www.youtube.com/watch?v=ZniVgo8U7ek)
+*  [**javascript - shuffle HTML list element order**](https://stackoverflow.com/questions/7070054/javascript-shuffle-html-list-element-order)

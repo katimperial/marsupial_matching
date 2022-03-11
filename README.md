@@ -2,6 +2,10 @@
 ### A Game by Kat Imperial
 ![Marsupial_Matching!](https://i.imgur.com/qtyML65.png)
 ![Marsupials!](https://cdn.britannica.com/19/93319-004-78B92D73/Australian-marsupials.jpg)
+## Getting Started
+* Fork and clone this repository
+* cd into the marsupial_matching directory
+* Open in your text editor of choice (example: for VSCode enter "code .")
 ## Game Objective
 Marsupial Matching will be a cute matching game featuring everyone's favorite mammalian infraclass; Marsupials! 
 A collection of cards will be presented to the player with just the backs visible. The player will click on the cards to reveal what is on the other side, a picture of a marsupial (kangaroo, kaola, etc.). For every card there will be a matching card hidden elsewhere on the board. If the cards that the player chooses are not a match they will flip back over. The goal is for the player to correctly match all of the marsupial pairs.
@@ -19,6 +23,9 @@ I would like to:
 * Create a custom header graphic for the game.
 * Add a countdown timer so players have to find all the matches by a certain time.
 * Have cards appear randomly for each game.
+## Known Bugs
+* Program recognizes a "double-click" on the same card as a "match" and leaves the card turned over.
+* Unresolved issue with CSS layout for header...looks correct on my screen but might not on someone else's screen.
 
 ## Link to Deployed "Surge" Website
 

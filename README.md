@@ -16,7 +16,7 @@ There will be an easy and a hard difficulty setting. Easy will be 8 different ma
 Players will be presented with a grid (of sorts) of card backs. Easy will be 4x4 (8 matching graphics, 16 cards). Hard will be 4x5 (10 matching graphics, 20 cards. Perhaps more than 10 for hard?? Maybe can incorporate a couple other odd mammals that aren't marsupials for a bonus.) There will be a button giving the player the option to choose between levels and also a button giving the player the option to start over.
 ## Game Play
 Each card will have a click event. The card backs (which are presented to the player at the start) will be stored in the HTML. My thought at this point is card "fronts" will be stored in the JS so they only appear when summoned. 
-For each turn players will select 2 cards. If the cards match, they will stay turned over. (**freeCodeCamp.org** on YouTube recommends removing the event listener to achieve this.) If they do not then they will turn back to their original status and the player will have to try again. When all the cards have turned over the player will have won.
+For each turn players will select 2 cards. If the cards match, they will stay turned over. If they do not then they will turn back to their original status and the player will have to try again. When all the cards have turned over the player will have won.
 ## If Time Allows
 I would like to:
 * Make the cards actually flip over when clicked.

@@ -25,13 +25,6 @@ header {
 
 body {
     background-color: #ffffcc;
-    /* display: grid;
-    grid-template-columns: 200px 200px 200px 200x;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "header header header header"
-    "section section . button"
-    "footer footer footer footer"; */
 }
 
 #header {
@@ -48,7 +41,6 @@ body {
 #card {
     max-width: 190px;
     height: auto;
-    /* display: inline-grid; */
     display: inline-flex;
     border-radius: 25px;
     margin: 5px;
@@ -57,6 +49,5 @@ body {
 button {
     height: 35px;
     width: auto;
-    /* align-self: center */
 }
 

@@ -10,36 +10,6 @@ for (let i = 0; i < kangarooBacks.length; i++) {
         kangarooBacks[i].src='https://i.imgur.com/YKhT7kY.jpg';
     });
 }
-// const cards = document.querySelectorAll('img')
-// let hasFlippedCard = false;
-// let firstCard = null;
-// let secondCard = null;
-
-// function flipCard() {
-    
-//     // this.classList.add('flip');
-
-//     if (!hasFlippedCard) {
-//         hasFlippedCard = true;
-//         firstCard = this;
-
-//         console.log(hasFlippedCard, firstCard)
-//     } else { hasFlippedCard = false;
-//         secondCard = this;
-        
-//         console.log(firstCard.className, secondCard.className)
-
-//         if (firstCard.className === secondCard.className) {
-//             return
-//         } else {
-//             console.log('in else statement')
-//             firstCard.src='https://i.imgur.com/6pzFVJD.jpeg';
-//             secondCard.src='https://i.imgur.com/6pzFVJD.jpeg'
-//         }
-//     }
-// }
-// cards.forEach(card => card.addEventListener('click', flipCard))
-
 
 // koala
 
@@ -157,7 +127,6 @@ let firstCard = null;
 let secondCard = null;
 function flipCard() {
     
-    // this.classList.add('flip');
 
     if (!hasFlippedCard) {
         hasFlippedCard = true;

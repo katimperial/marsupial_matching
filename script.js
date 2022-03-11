@@ -145,7 +145,7 @@ console.log(cuscusBacks)
 for (let i = 0; i < cuscusBacks.length; i++) {
     cuscusBacks[i].addEventListener("click", function() {
       console.log('cuscus card clicked')
-      cuscusBacks[i].src='https://i.imgur.com/GgXaIZH.png';
+      cuscusBacks[i].src='https://i.imgur.com/nq8PJvo.jpg';
     });
 }
 
